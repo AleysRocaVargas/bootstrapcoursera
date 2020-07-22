@@ -1,0 +1,11 @@
+{
+  "name": "bootstrapcoursera",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto de nodeJS",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arleys",
+  "license": "ISC"
+}
