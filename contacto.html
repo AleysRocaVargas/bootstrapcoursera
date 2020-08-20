@@ -65,23 +65,62 @@
       <a class="breadcrumb-item" href="index.html">Home</a>
       
       <span class="breadcrumb-item active"> 
-        <a class="breadcrumb-item" href="#">About</a>
+        <a class="breadcrumb-item" href="#">Contacto</a>
       </span>
       
     </nav>
-    <div class="row">
-      <div class="container">
-        <p>
-          <h3>
-            Sobre Nosotros
-          </h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet ut consequuntur possimus atque doloremque debitis voluptas, assumenda sint quas, numquam quidem autem similique aperiam incidunt eaque expedita repellendus distinctio vel sed sunt? Numquam, suscipit nobis, distinctio fugit aliquid ducimus doloribus quas quod iste, incidunt consequuntur deleniti ad asperiores mollitia dolore eos totam alias! Ab, amet. Expedita facilis ea dignissimos, ad ipsa sed consequatur. Nostrum alias numquam eaque nobis ea ab, fugiat laudantium, beatae corporis, commodi magnam voluptatem nisi. Quo sunt voluptate facilis unde sit nostrum odit placeat doloremque ea, aperiam in exercitationem fuga cumque magnam non minus qui omnis. Asperiores.</p>
-        </p>
+   <h1>Dejame tu comentario</h1>
+   <form>
+     <div class="form-row">
+       <div class="form-group col-sm-6">
+         <label for="nombre">Nombre</label>
+         <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingresa tu nombre">
+         
+       </div>
+       <div class="form-group col-sm-6">
+        <label for="apellido">Apellido</label>
+        <input type="text" name="Apellido" id="apellido" class="form-control" placeholder="Ingresa tu apellido" >
       </div>
-      
     </div>
-  </div>
+    <div class="form-row">
+      <div class="form-group col-sm-12">
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" class="form-control" placeholder="ingresa tu email" >
+        
+      </div>
+    </div>
+    <div class="form-row">
+      <div class="form-group col-sm-6">
+        <label for="domicilio">Domicilio</label>
+        <input type="text" name="domicilio" id="domicilio" class="form-control" placeholder="Dirección de tu domicilio" >
+        
+      </div>
+      <div class="form-group col-sm-6">
+        <label for="municipio">Municipio</label>
+        <select class="form-control" name="municipio" id="municipio">
+          <option>Municipio1</option>
+          <option>Municipio1</option>
+          <option>Municipio1</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-row ">
+      <div class="form-group col-sm-12">
+        <label for="comentario">Comentario</label>
+        <textarea class="form-control" name="comentario" id="comentario" rows="3"></textarea>
+      </div>
+      <div class="form-check col-sm-12">
+        <label class="form-check-label">
+          <input type="checkbox" class="form-check-input" name="check" id="check" value="checkedValue" checked>
+          Quiero que me contacten
+        </label>
+      </div>
+    </div>
+    <button type="submit" name="btnEnviar" id="btnEnviar" class="btn btn-primary" >Enviar</button>
+   </form>
   
+  </div>
+  <footer class="footer"> </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="node_modules\jquery\dist\jquery.min.js"></script>
